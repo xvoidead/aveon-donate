@@ -6,7 +6,9 @@
     "Segoe UI", system-ui, sans-serif;
 
   --color-ink: #111318;
-  --color-muted: #737985;
+  --color-muted: #666c78;
+  --color-positive: #12733a;
+  --color-danger: #c81e1e;
   --color-canvas: #f5f7fa;
   --color-canvas-2: #eceff3;
 
