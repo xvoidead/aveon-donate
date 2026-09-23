@@ -201,3 +201,9 @@ export const Trash = (p: IconProps) => (
     <path d="M4 7h16M9 7V4h6v3M7 7l1 14h8l1-14M10 11v6M14 11v6" />
   </svg>
 );
+
+export const Close = (p: IconProps) => (
+  <svg {...base(p)}>
+    <path d="M6 6l12 12M18 6L6 18" />
+  </svg>
+);

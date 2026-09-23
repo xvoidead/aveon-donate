@@ -214,7 +214,7 @@ function HeroVisual() {
                 <LogoMark size={22} className="text-ink" />
 
                 <p className="mt-7 text-[16px] font-medium tracking-[-0.01em] text-ink/85">
-                  Donation received
+                  Платёж получен
                 </p>
                 <p className="mt-1.5 text-[44px] font-semibold leading-none tracking-[-0.035em] text-ink">
                   + 499 ₽

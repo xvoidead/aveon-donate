@@ -28,7 +28,7 @@ const FEATURES: Feature[] = [
   {
     icon: Percent,
     title: "Низкая комиссия",
-    text: "Одна из самых выгодных комиссий на рынке.",
+    text: "Всего 3% с платежа — одна из самых выгодных комиссий на рынке.",
   },
 ];
 
@@ -66,7 +66,22 @@ export function Features() {
       </div>
 
       <div className="mx-auto max-w-[1360px] px-6 lg:px-10">
-        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-4">
+        <Reveal className="flex flex-wrap items-end justify-between gap-x-10 gap-y-6">
+          <div>
+            <p className="eyebrow">Возможности</p>
+            <h2 className="display mt-6 text-[length:clamp(36px,3.9vw,56px)] text-ink">
+              Всё, что нужно
+              <br />
+              для продаж
+            </h2>
+          </div>
+          <p className="max-w-[400px] text-[16.5px] leading-[1.65] text-muted text-pretty">
+            Приём платежей, выдача товаров и выплаты работают автоматически,
+            пока вы занимаетесь сервером.
+          </p>
+        </Reveal>
+
+        <div className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-4">
           {FEATURES.map((f, i) => (
             <Reveal key={f.title} delay={i * 90}>
               <article className="glass group h-full rounded-[32px] p-8 transition-transform duration-700 [transition-timing-function:cubic-bezier(0.2,0.7,0.2,1)] hover:-translate-y-1">
